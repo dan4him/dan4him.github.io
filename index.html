@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Walkthrough</title>
+
+    <!-- default bootstrap: style your page like twitter -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada" rel="stylesheet">
+    <!-- theme files: used to style over default bootstrap -->
+    <!-- try themes from: https://startbootstrap.com/-->
+     <!--<link rel="stylesheet" type="text/css" href="theme.css"> -->
+     <!--<link rel="stylesheet" type="text/css" href="theme2.css"> -->
+     <!--<link rel="stylesheet" type="text/css" href="theme3.css"> -->
+     <!--<link rel="stylesheet" type="text/css" href="theme4.css"> -->
+
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- animate.css: used to apply quick css animations -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
+    
+    <!--our own custom css overrides-->
+    <link rel="stylesheet" href="custom.css">
+
+    <!-- use this style for testing and development purposes only -->
+    <!--<style type="text/css">
+    .container{border: 2px dotted green;}
+    .row{border: 1px dotted red;}
+    .row [class*=' col-']{border: 2px dotted purple;}
+    </style>-->
+    
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <!-- hamburger button. do not touch! -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- HOME BUTTON: REPLACE href="#" with your landing page url -->
+      <a class="navbar-brand" href="#">
+          <!-- PUT BRAND LOGO / ICON HERE (instead of font-awesome -->
+          <img src="https://www.iss.nus.edu.sg/images/default-source/Centres-of-Excellence/Startup-SME/stackup-logo-02.png?sfvrsn=2" style="width:30px">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <!-- THIS UL HANDLES OUR LINKS -->
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="#">About</a></li>
+        <li><a href="#">CIY</a></li>
+        <!-- to make more links, make some <li> in here -->
+      </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Sign Up</a></li>
+        <li><a href="#">Cart</a></li>
+        <!-- to make more links, make some <li> in here -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--Container For Page-->
+<div class="container">
+
+    <!--row1: Jumbotron-->
+    <div class="row">
+
+        <div class="col-xs-12
+                    col-sm-12
+                    col-md-12
+                    col-lg-12">
+
+            <div class="jumbotron my-jumbotron-background">
+                 <h1>THE CODER IN ME</h1>
+                    <!--<p>sub-text</p>-->
+                    <!--<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> </div>-->
+        </div>
+            
+    </div>
+    
+    <!--End of Row 1: Jumbotron-->
+
+    <!--Row 2: Why Code?-->
+    <div class="row">
+        
+        <div class="col-xs-12
+                    col-sm-12
+                    col-md-12
+                    col-lg-12">
+        
+                <div class="page-header my-page-header">
+                    <h1 class="wow wobble">Why Code?<br><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eos molestiae, temporibus. Cum quaerat maiores iusto doloremque molestias modi molestiae, similique perferendis, laudantium, quisquam officiis aut sunt in quo ratione.</small></h1>
+                </div>
+        </div> 
+    </div>
+    <!--End of Row 2: Why Code?-->
+
+    <!--Row 3: thumbnails: Getting Started-->
+    <div class="row row:thumbnail">
+        <!--col 1-->
+        <div class="col-xs-6 
+                    col-sm-3 
+                    col-md-3 
+                    col-lg-3">
+            <div class="thumbnail">
+            <img src="https://mlsvc01-prod.s3.amazonaws.com/54ce16fb001/b4002dc7-f042-42a8-9fe6-d358baad56a3.jpg?ver=1424390548000" alt="wi-fi"><br>
+                <p class="text-center"><a href="#" class="btn btn-primary btn-lg btn-block" role="button">Step 1:<br>Hook Me Up!</a></p>
+        
+            </div>
+
+        </div>
+        <!--End col 1-->
+
+        <!--col 2-->
+        <div class="col-xs-6
+                    col-sm-3
+                    col-md-3
+                    col-lg-3">
+            <div class="thumbnail">
+            <img src="https://www.communardo.de/wp-content/blogs.dir/1/files/2016/11/Confluence_Beitragsbild.png" alt="Confluence"><br>
+                    <p class=text-center><a href="#" class="btn btn-primary btn-lg btn-block" role="button">Step 2:<br>Course Materials</a></p>
+            </div>
+        
+        </div>
+        <!--End col 2-->
+
+        <!--col 3-->    
+        <div class="col-xs-6
+                    col-sm-3
+                    col-md-3
+                    col-lg-3">
+            <div class="thumbnail">
+            <img src="https://s-media-cache-ak0.pinimg.com/originals/2b/26/43/2b26437d72e949db88e62d251c736c45.jpg" alt="slack"><br>
+                <!--<div class="caption3">-->
+                <div>
+                 <p class="text-center"><a href="#" class="btn btn-primary btn-lg btn-block" role="button">Step 3:<br>Communicate!</a></p></div>
+
+            </div>
+        </div>
+        <!--End col 3-->
+
+        <!--Col 4-->
+        <div class="col-xs-6
+                    col-sm-3
+                    col-md-3
+                    col-lg-3">
+            <div class="thumbnail">
+            <img src="http://sundog-soft.com/wp-content/uploads/2015/07/visual_studio_logo_purple.jpg" alt="Visual Studio"><br>
+                 <p class="text-center"><a href="#" class="btn btn-primary btn-lg btn-block" role="button">Step 4:<br>Tools</a></p></div>
+            </div>
+        <!--End of Col 4-->
+        </div>
+
+        </div>
+    </div>        
+        <!--End of Row2: thumbnails: Getting Started-->
+
+<!--Row 4-->
+    <div class="row">
+         
+         <div class="col-xs-12
+                    col-sm-12
+                    col-md-12
+                    col-lg-12">
+        
+        <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/STRPsW6IY8k?autoplay=0&loop=1"></iframe>
+            </div>
+            
+          </div>  
+
+    </div>
+    <hr>
+    <!--Row 5: Form and General Text-->
+    <div class="row">
+         
+         <!--Column 1: Form-->
+         <div class="col-xs-12
+                    col-sm-offset-2 col-sm-4
+                    col-md-offset-2 col-md-4
+                    col-lg-offset-2 col-lg-4">
+
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Get me started!</div>
+                        <div class="panel-body">
+                        <form action="https://coderinyou-1332.appsot.com/submit" method="post">
+                            
+                            <div class="form-group">
+                            <label for="name-id">Name</label>
+                            <input type="text" name="Name" id="Name-id" placeholder="Frank Lee" required class="form-control">
+                            </div>
+                            
+                            <div class="form-group">
+                            <label for="email-id">Email</label>
+                            <input type="email" name="EMAIL" value=me@site.com id="email-id" required class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                            <input type="submit" class="btn btn-primary" value="Let's Go!">
+                            </div>
+
+                </div>
+        </div>
+        </div>                 
+         <!--Column 2: Text-->
+        <div class="col-xs-12
+                    col-sm-4 
+                    col-md-4 
+                    col-md-4"> 
+
+             <table class="table">
+                <tr>
+                    <th>Upcoming Courses</th><th>Date</th>
+                </tr>                
+
+                <tr>        
+                    <td>The Coder In You (Part-Time)</td>
+                    <td>20 May 2017</td>
+                </tr>
+
+                <tr>
+                    <td>Full Stack Foundation</td>
+                    <td>18 Sep 2017</td>
+                </tr>
+        </table>
+     </div>
+    </div>
+
+<div class="row">
+    <!--Column 1: Opening Hours-->
+    <div class="col-xs-12
+                col-sm-4 
+                col-md-4 
+                col-md-4">
+        <table class="table">
+          <tr>
+              <th>Opening Hours</th>
+          </tr>                
+
+          <tr>        
+              <td>Mon-Fri</td>
+              <td>8am-6pm</td>
+          </tr>
+        </table>
+    </div>
+<!--Col 2:Contact Us-->
+    <div class="col-xs-12
+                col-sm-4 
+                col-md-4 
+                col-md-4">
+        <h5 class="text-center"><strong>Contact Us</strong></h5>
+        <div>
+            <ul class="fa ul"> 
+	            <li>
+	  	            <i class="fa-li fa fa-phone"></i>
+	  	            <a href="tel:+65123456789" class="my-link">123456789</a>
+	            </li>
+                <li>
+                    <i class="fa-li fa fa-envelope"></i>
+                    <a href="mailto:info@stackup.com" class="link">info@stackup.com</a>
+                </li>
+	            <li>
+                    <i class="fa-li fa fa-home"></i>
+                    <i>NUS-ISS Stackup Studio<br>JTC LaunchPad @ One North<br>Block 79 Ayer Rajah Crescent #02-09<br>Singapore 139957</i>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<!--Col3:Locate Us-->
+    <div class="col-xs-12
+                col-sm-4 
+                col-md-4 
+                col-md-4">
+        <h5 class="text-center"><strong>Locate Us</strong></h5>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://goo.gl/Rhsi5w"></iframe>
+        </div>
+    </div>
+
+</div>
+<!--End of Row: Locate Us-->
+
+<div class="row">
+    <div class="col-xs-12
+                col-sm-12
+                col-md-12
+                col-lg-12">
+            
+        <ul class="list-inline text-center">
+            <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i><a>
+            <<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i><a>
+            <<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i><a>
+        </ul>
+    </div>
+
+
+</div>
+
+
+
+</div>
+<!--End of Container-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+<!-- jquery: used by bootstrap.js -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- bootstrap js: used to run fancy components like carousel -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- wow.js: used to make animate.css run on view -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/wow/1.1.2/wow.min.js"></script>
+<script>new WOW().init();</script>
+</body>
+</html>

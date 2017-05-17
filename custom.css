@@ -1,0 +1,38 @@
+.my-jumbotron-background{
+    background-image:url("http://wallpaper-gallery.net/images/techy-wallpapers/techy-wallpapers-23.jpg");
+    background-size:cover;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color:white;
+    font-size: 2rem;
+    Font-weight: 900;
+}
+
+.my-page-header{
+    text-align:center;
+    font-weight:750;
+}
+.panel-heading{
+    text-align:center;
+    color:white;
+}
+
+.panel-body{
+    text-align:center;
+}
+
+input[type=text], 
+input[type=email]{
+	border-style:none;
+	border-bottom:1px solid black;
+}
+input[type=submit]{
+	height:3rem;
+	border:none;
+	color:black;
+}
+
+input[type=submit]:hover{
+	background-color:lightseagreen;
+
+
+}
